@@ -197,10 +197,7 @@ def main():
             if args.moustache:
                 mustache(landmark, NOSE_POINTS, frame, filter_img, mask, mask_inv)
             if args.sunglasses:
-            	sunglasses(landmarks, LEFT_EYE_POINTS, RIGHT_EYE_POINTS, frame, filter_img, mask, mask_inv)
-            
-            
-
+            	sunglasses(landmarks, LEFT_EYE_POINTS, RIGHT_EYE_POINTS, frame, filter_img, mask, mask_inv)  
 
         cv2.imshow("Frame", frame)
 
